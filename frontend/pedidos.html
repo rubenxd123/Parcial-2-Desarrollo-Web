@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mis Pedidos</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Mis Pedidos</h1>
+    <div id="cliente-info" class="card"></div>
+
+    <section class="card">
+      <h2>Crear pedido</h2>
+      <form id="form-pedido">
+        <input type="text" id="platillo" placeholder="Platillo" required />
+        <input type="text" id="notes" placeholder="Notas (opcional)" />
+        <button type="submit">Crear</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Listado</h2>
+      <ul id="lista"></ul>
+    </section>
+  </main>
+  <script src="./js/pedidos.js"></script>
+</body>
+</html>
